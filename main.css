@@ -1,0 +1,25 @@
+.H1 {
+	padding-left:0;
+}
+.H2 {
+	padding-left:20px;
+}
+.H3 {
+	padding-left:40px;
+}
+.H4 {
+	padding-left:60px;
+}
+#dean_page_menu li {
+	list-style-type:none;
+}
+#dean_page_menu {
+	z-index:99999;
+	position:fixed;
+	right:0px;
+	top:0px;
+	padding:12px;
+	background:white;
+	border-radius:8px;
+	border:1px solid black;
+}

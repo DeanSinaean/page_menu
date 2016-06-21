@@ -1,0 +1,21 @@
+{
+	"manifest_version":2,
+	"name":"Page Menu",
+	"version":"0.1",
+	"description":"Generate a menu for web pages",
+	"browser_action":{
+		"default_icon":"logo.png"
+	},
+	"content_scripts":[
+	{
+		"matches":["http://*/*", "https://*/*"],
+		"js":["jquery-3.0.0.min.js"],
+		"css":["main.css"],
+		"run_at":"document_end"
+	}
+	],
+	"permissions":["activeTab"],
+	"background": {
+		"scripts":["background.js"]
+	}
+}
